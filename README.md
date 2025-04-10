@@ -1,73 +1,80 @@
-# Welcome to your Lovable project
+# Snappy Arithmetic Wizard
 
-## Project info
+A modern, responsive calculator web application built with React and TypeScript. This project provides a sleek, user-friendly interface for performing arithmetic calculations with a clean design and smooth interactions.
 
-**URL**: https://lovable.dev/projects/6a2a58b9-0ccd-44a1-bc96-bdd27089b7cf
+## Features
 
-## How can I edit this code?
+- Clean and intuitive user interface
+- Basic arithmetic operations
+- Responsive design that works on all devices
+- Built with modern web technologies
+- Real-time calculation updates
 
-There are several ways of editing your application.
+## Technology Stack
 
-**Use Lovable**
+- Vite - Next Generation Frontend Tooling
+- TypeScript - For type-safe code
+- React - UI Framework
+- shadcn-ui - UI Component Library
+- Tailwind CSS - Utility-first CSS framework
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6a2a58b9-0ccd-44a1-bc96-bdd27089b7cf) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- Node.js (Latest LTS version recommended)
+- npm (comes with Node.js)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
+1. Clone the repository
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone <repository-url>
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. Navigate to the project directory
+```sh
+cd snappy-arithmetic-wizard
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+3. Install dependencies
+```sh
+npm install
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+4. Start the development server
+```sh
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Project Structure
 
-**Use GitHub Codespaces**
+```
+src/
+├── components/     # React components
+│   ├── Calculator.tsx
+│   ├── CalculatorButton.tsx
+│   └── CalculatorDisplay.tsx
+├── hooks/          # Custom React hooks
+├── lib/           # Utility functions
+├── pages/         # Page components
+└── utils/         # Helper functions
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Development
 
-## What technologies are used for this project?
+This project uses:
+- TypeScript for static typing
+- ESLint for code linting
+- Prettier for code formatting
+- Tailwind CSS for styling
 
-This project is built with:
+## Contributing
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## How can I deploy this project?
+## License
 
-Simply open [Lovable](https://lovable.dev/projects/6a2a58b9-0ccd-44a1-bc96-bdd27089b7cf) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is licensed under the MIT License - see the LICENSE file for details.
