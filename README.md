@@ -29,7 +29,7 @@ A modern, responsive calculator web application built with React and TypeScript.
 
 1. Clone the repository
 ```sh
-git clone <repository-url>
+git clone https://github.com/MalharBhosale/snappy-arithmetic-wizard.git
 ```
 
 2. Navigate to the project directory
